@@ -41,7 +41,7 @@ This entire project is done on Amazon sagemaker and uses some heavy GPU instance
 The list below represents main libraries and its objects
 for the project.
 - [Amazon SageMaker](https://ap-northeast-2.console.aws.amazon.com/sagemaker/home?region=ap-northeast-2#/landing) (Build, train, and deploy a model)
-- [PyTorch](https://pytorch.org) (LSTM classifier)
+- [tensorflow](https://www.tensorflow.org/) (LSTM classifier)
 
 ### Delete the Endpoint
 Remember to always __SHUT DOWN YOUR ENDPOINT__ if you are no longer using it. You are charged for the length of time that the endpoint is running so if you forget and leave it on you could end up with an unexpectedly large bill.
